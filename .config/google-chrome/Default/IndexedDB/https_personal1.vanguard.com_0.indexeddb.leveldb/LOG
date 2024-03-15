@@ -1,0 +1,6 @@
+2023/12/17-00:07:53.180 29d8 Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_personal1.vanguard.com_0.indexeddb.leveldb since it was missing.
+2023/12/17-00:07:53.185 29d8 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_personal1.vanguard.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/17-00:07:53.286 29d7 Level-0 table #5: started
+2023/12/17-00:07:53.288 29d7 Level-0 table #5: 566 bytes OK
+2023/12/17-00:07:53.290 29d7 Delete type=0 #3
+2023/12/17-00:07:53.290 29d7 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

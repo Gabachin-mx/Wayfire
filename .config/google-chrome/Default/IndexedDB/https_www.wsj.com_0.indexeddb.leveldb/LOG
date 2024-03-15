@@ -1,0 +1,6 @@
+2023/10/15-23:05:19.251 23f3 Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_www.wsj.com_0.indexeddb.leveldb since it was missing.
+2023/10/15-23:05:19.256 23f3 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.wsj.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/15-23:05:19.352 240a Level-0 table #5: started
+2023/10/15-23:05:19.355 240a Level-0 table #5: 1260 bytes OK
+2023/10/15-23:05:19.357 240a Delete type=0 #3
+2023/10/15-23:05:19.357 23f3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

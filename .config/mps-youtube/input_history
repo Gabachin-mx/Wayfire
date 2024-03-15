@@ -1,0 +1,153 @@
+config
+yt config
+h
+help config
+set columns 4
+yt meet the press
+/ meet the press
+set columns 6
+/ meet the press
+n
+q
+/meet the press
+1
+q
+/gzero
+/the bulwark
+/pakman
+set columns user date
+/pakman
+/lex fridman
+5
+/dw news
+2
+/1
+1
+/times radio
+2
+/cnn
+1 3 4 7 11 
+q
+/the bulwark
+set order date
+/ linux cast
+1
+/sam harris
+n
+/douglas murray
+/boghossian
+3
+q
+/pod save america
+1
+/the corruption of lindsay graham
+6
+ c
+ 
+h
+help basics
+h
+help download
+h
+help config
+/times radio
+/cnn
+1
+q
+/https://www.youtube.com/watch?v=GmlrEgLGozw
+1
+/pers morgan
+1
+/https://www.youtube.com/watch?v=4wGtSdZbZ5M
+1
+q
+/chris christie
+13
+/robert wright
+/is the middle east falling apart
+1
+q
+/chris christie
+/https://www.youtube.com/watch?v=1AWQkO1nyzA&t=4839s
+sam harris
+/sam harris
+/sam harris republican
+/sam harris 
+3 2
+/https://www.youtube.com/watch?v=6KJhM7Pg5EA&t=6s
+https://www.youtube.com/watch?v=6KJhM7Pg5EA&t=6s
+/ https://www.youtube.com/watch?v=6KJhM7Pg5EA&t=6s
+/understanding power corruption sam harri
+1
+/piers morgen
+1
+/amanpour
+/cnn
+1 2 3 6 
+/ https://www.youtube.com/watch?v=8M1X4kXKois
+1
+set player mpv
+q
+/https://www.youtube.com/watch?v=GuwUsuFc8ew
+1
+/quilette
+/cnn
+2 3
+/chris christie
+1
+https://www.youtube.com/watch?v=rGU-dFIG34g
+/https://www.youtube.com/watch?v=rGU-dFIG34g
+1
+/cnn
+1 2
+nonezero
+/nonezero
+/chris christie
+/cnn
+1 2 4 6
+/chris schrisite
+/chris christie
+set video_player mpv
+chris christie
+/chris christie
+/triggernometry
+5
+q
+help new
+help
+/club random
+1
+q
+/robert wright ukraine
+/robert wright post-mortem
+1
+n
+/piers morgen
+1
+chris christie
+/chris christie
+1 2 6
+q
+chris christie
+/chris christie
+1 2 
+/amanpour
+/chris cuomo
+1
+/the warning
+/the warning steve schidt
+1 2
+/sam harris
+13
+/jon stewart
+/matt lewis
+1 2
+/lex fridman
+/the daily
+/the daily new york times podcast
+/cnn 
+1 2 4 5 6
+/chris christie
+/cnn
+1 2
+q

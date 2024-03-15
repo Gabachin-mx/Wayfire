@@ -1,0 +1,35 @@
+2024/03/15-16:28:45.882 532 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/chrome-extension_khcenbpnhbeplojhaolbpldmoppicold_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/15-16:28:45.882 532 Recovering log #331
+2024/03/15-16:28:45.919 532 Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/chrome-extension_khcenbpnhbeplojhaolbpldmoppicold_0.indexeddb.leveldb/000331.log 
+2024/03/15-16:28:45.920 532 Delete type=2 #323
+2024/03/15-16:28:45.920 532 Delete type=2 #329
+2024/03/15-16:28:45.920 532 Delete type=2 #326
+2024/03/15-16:28:45.920 532 Delete type=2 #332
+2024/03/15-16:28:45.920 532 Delete type=2 #327
+2024/03/15-16:28:45.920 532 Delete type=2 #324
+2024/03/15-16:28:45.920 532 Delete type=2 #322
+2024/03/15-16:28:45.920 532 Delete type=2 #328
+2024/03/15-16:28:45.920 532 Delete type=2 #325
+2024/03/15-16:28:47.577 4ff Level-0 table #343: started
+2024/03/15-16:28:47.598 4ff Level-0 table #343: 1422080 bytes OK
+2024/03/15-16:28:47.601 4ff Delete type=0 #331
+2024/03/15-16:28:47.621 519 Compacting 1@1 + 8@2 files
+2024/03/15-16:28:47.665 519 Generated table #344@1: 19746 keys, 2157027 bytes
+2024/03/15-16:28:47.720 519 Generated table #345@1: 35013 keys, 2175117 bytes
+2024/03/15-16:28:47.803 519 Generated table #346@1: 48305 keys, 2374427 bytes
+2024/03/15-16:28:47.864 519 Generated table #347@1: 92905 keys, 2266175 bytes
+2024/03/15-16:28:47.926 519 Generated table #348@1: 59968 keys, 2219440 bytes
+2024/03/15-16:28:47.972 519 Generated table #349@1: 28473 keys, 2227340 bytes
+2024/03/15-16:28:48.016 519 Generated table #350@1: 31635 keys, 2312168 bytes
+2024/03/15-16:28:48.038 519 Generated table #351@1: 21886 keys, 830201 bytes
+2024/03/15-16:28:48.038 519 Compacted 1@1 + 8@2 files => 16561895 bytes
+2024/03/15-16:28:48.041 519 compacted to: files[ 0 0 8 0 0 0 0 ]
+2024/03/15-16:28:48.042 519 Delete type=2 #333
+2024/03/15-16:28:48.042 519 Delete type=2 #343
+2024/03/15-16:28:48.042 519 Delete type=2 #337
+2024/03/15-16:28:48.042 519 Delete type=2 #336
+2024/03/15-16:28:48.042 519 Delete type=2 #338
+2024/03/15-16:28:48.042 519 Delete type=2 #340
+2024/03/15-16:28:48.042 519 Delete type=2 #335
+2024/03/15-16:28:48.042 519 Delete type=2 #339
+2024/03/15-16:28:48.042 519 Delete type=2 #334

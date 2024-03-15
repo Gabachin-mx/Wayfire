@@ -1,0 +1,34 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/,$HOME/.fonts/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/.fonts/,file:$HOME/Downloads/,file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+960x540 screen: Height=479
+960x540 screen: Width=454
+960x540 screen: XPosition=487
+960x540 screen: YPosition=42
+State=AAAA/wAAAAD9AAAAAAAAAcYAAAG6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=956
+eDP-1 Height 960x540=500
+eDP-1 Width 1920x1080=906
+eDP-1 Width 960x540=956
+eDP-1 XPosition 1920x1080=974
+eDP-1 XPosition 960x540=2
+eDP-1 YPosition 1920x1080=63
+eDP-1 YPosition 960x540=28
+eDP1=eDP1
+eDP1 Height 960x540=510
+eDP1 Height 960x540 eDP1=503
+eDP1 Width 960x540=466
+eDP1 Width 960x540 eDP1=960
+eDP1 XPosition 960x540=9
+eDP1 XPosition 960x540 eDP1=0
+eDP1 YPosition 960x540=22
+eDP1 YPosition 960x540 eDP1=38
+splitterSizes=300,150

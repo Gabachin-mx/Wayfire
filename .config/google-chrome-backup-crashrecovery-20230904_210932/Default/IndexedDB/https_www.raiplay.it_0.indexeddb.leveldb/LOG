@@ -1,0 +1,7 @@
+2023/08/28-18:09:26.026 46b Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.raiplay.it_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-18:09:26.026 46b Recovering log #3
+2023/08/28-18:09:26.026 46b Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_www.raiplay.it_0.indexeddb.leveldb/000003.log 
+2023/08/28-18:14:00.477 46b Level-0 table #5: started
+2023/08/28-18:14:00.481 46b Level-0 table #5: 2579 bytes OK
+2023/08/28-18:14:00.485 46b Delete type=0 #3
+2023/08/28-18:14:00.486 46b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

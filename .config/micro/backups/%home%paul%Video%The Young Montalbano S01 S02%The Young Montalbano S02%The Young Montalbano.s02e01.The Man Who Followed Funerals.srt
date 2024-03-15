@@ -1,0 +1,232 @@
+ q1
+00:00:03,160 --> 00:00:06,480
+<font color="#ffffff">This programme contains</font>
+<font color="#ffffff">some violent scenes</font>
+
+2
+00:00:06,480 --> 00:00:10,320
+<font color="#ffffff">and some strong language.</font>
+
+3
+00:02:55,640 --> 00:02:58,640
+<font color="#ffffff">BABY CRIES IN DISTANCE</font>
+
+4
+00:03:11,920 --> 00:03:14,800
+<font color="#ffffff">GUNSHOT</font>
+
+5
+00:03:16,160 --> 00:03:19,360
+<font color="#ffffff">DOG BARKS</font>
+
+6
+00:05:30,880 --> 00:05:33,280
+<font color="#ffffff">KNOCKING AT DOOR</font>
+
+7
+00:08:18,920 --> 00:08:21,440
+<font color="#ffffff">HE BLOWS A RASPBERRY</font>
+
+8
+00:08:28,800 --> 00:08:31,480
+<font color="#ffffff">RINGING</font>
+
+9
+00:11:51,320 --> 00:11:53,920
+<font color="#ffffff">HE WEEPS</font>
+
+10
+00:16:03,200 --> 00:16:05,520
+<font color="#ffffff">PHONE RINGS</font>
+
+11
+00:17:21,840 --> 00:17:24,520
+<font color="#ffffff">TYRES SCREECH</font>
+
+12
+00:19:12,600 --> 00:19:14,600
+<font color="#ffffff">TELEPHONE RINGS</font>
+
+13
+00:20:41,080 --> 00:20:43,040
+<font color="#ffffff">< KNOCKING ON DOOR</font>
+
+14
+00:22:04,680 --> 00:22:05,760
+<font color="#ffffff">< KNOCKING AND ENTERING</font>
+
+15
+00:24:36,640 --> 00:24:40,480
+<font color="#ffffff">PHONE RINGS</font>
+
+16
+00:24:47,360 --> 00:24:50,880
+<font color="#ffffff">ENGAGED TONE</font>
+
+17
+00:25:11,320 --> 00:25:12,960
+<font color="#ffffff">KNOCKING</font>
+
+18
+00:25:38,600 --> 00:25:41,320
+<font color="#ffffff">ENGAGED TONE</font>
+
+19
+00:25:50,280 --> 00:25:52,840
+<font color="#ffffff">ANIMATED VOICES</font>
+
+20
+00:26:01,040 --> 00:26:04,240
+<font color="#ffffff">RAISED VOICES</font>
+
+21
+00:27:51,480 --> 00:27:54,760
+<font color="#ffffff">PHONE RINGS</font>
+
+22
+00:31:09,760 --> 00:31:16,160
+<font color="#ffffff">INAUDIBLE</font>
+
+23
+00:33:26,720 --> 00:33:29,080
+<font color="#ffffff">KNOCKING</font>
+
+24
+00:35:25,200 --> 00:35:28,200
+<font color="#ffffff">DOOR OPENS AND CLOSES ></font>
+
+25
+00:35:58,360 --> 00:36:01,600
+<font color="#ffffff">HE DIALS OUT</font>
+
+26
+00:40:21,520 --> 00:40:23,280
+<font color="#ffffff">KNOCKING ON DOOR</font>
+
+27
+00:41:53,080 --> 00:41:55,040
+<font color="#ffffff">GUNSHOTS</font>
+
+28
+00:41:56,120 --> 00:41:59,640
+<font color="#ffffff">TYRES SCREECH</font>
+
+29
+00:47:08,240 --> 00:47:11,560
+<font color="#ffffff">PHONE RINGS</font>
+
+30
+00:48:18,640 --> 00:48:20,160
+<font color="#ffffff">Argh!</font>
+
+31
+00:52:18,520 --> 00:52:23,280
+<font color="#ffffff">ROMANTIC MUSIC PLAYS OVER SCENE</font>
+
+32
+00:52:29,000 --> 00:52:31,680
+<font color="#ffffff"># Met you by surprise</font>
+
+33
+00:52:31,680 --> 00:52:34,800
+<font color="#ffffff">MUSIC OVER AUDIO:</font>
+<font color="#ffffff"># I didn't realise</font>
+
+34
+00:52:34,800 --> 00:52:38,160
+<font color="#ffffff"># That my life would change</font>
+
+35
+00:52:38,160 --> 00:52:40,080
+<font color="#ffffff"># For ever</font>
+
+36
+00:52:41,680 --> 00:52:44,720
+<font color="#ffffff"># Saw you standing there</font>
+
+37
+00:52:44,720 --> 00:52:48,080
+<font color="#ffffff"># I didn't know or care</font>
+
+38
+00:52:48,080 --> 00:52:50,960
+<font color="#ffffff"># There was something special</font>
+
+39
+00:52:50,960 --> 00:52:53,240
+<font color="#ffffff"># In the air</font>
+
+40
+00:52:54,680 --> 00:52:59,440
+<font color="#ffffff"># Dreams are my reality</font>
+
+41
+00:52:59,440 --> 00:53:05,400
+<font color="#ffffff"># The only kind of real fantasy. #</font>
+
+42
+00:53:05,400 --> 00:53:08,200
+<font color="#ffffff">MUSIC STOPS ABRUPTLY</font>
+<font color="#ffffff">KNOCKING ON DOOR</font>
+
+43
+00:53:18,840 --> 00:53:21,840
+<font color="#ffffff">NO SPEECH</font>
+
+44
+00:56:10,960 --> 00:56:15,160
+<font color="#ffffff">BELL TOLLS</font>
+
+45
+01:01:20,880 --> 01:01:23,960
+<font color="#ffffff">PHONE RINGING</font>
+
+46
+01:07:33,920 --> 01:07:37,760
+<font color="#ffffff">SCREECHES TO HALT</font>
+
+47
+01:11:32,240 --> 01:11:35,000
+<font color="#ffffff">THEY CHEER</font>
+
+48
+01:15:09,000 --> 01:15:10,880
+<font color="#ffffff">Livia!</font>
+
+49
+01:20:42,400 --> 01:20:46,280
+<font color="#ffffff">MUSIC: Lu Jorno Ca Cantavanu Li Manu</font>
+<font color="#ffffff">sung by Olivia Sellerio</font>
+
+50
+01:21:02,640 --> 01:21:04,920
+<font color="#ffffff">KNOCKING AT DOOR</font>
+
+51
+01:24:39,520 --> 01:24:43,200
+<font color="#ffffff">HE COUGHS VIOLENTLY</font>
+
+52
+01:28:23,560 --> 01:28:25,200
+<font color="#ffffff">GUNSHOT</font>
+
+53
+01:28:25,200 --> 01:28:31,120
+<font color="#ffffff">No, no!</font>
+
+54
+01:30:43,800 --> 01:30:47,160
+<font color="#ffffff">PHONE RINGS</font>
+
+55
+01:33:15,160 --> 01:33:18,720
+<font color="#ffffff">KNOCK AT DOOR</font>
+
+56
+01:38:05,120 --> 01:38:08,280
+<font color="#ffffff">CHICKENS CLUCK</font>
+
+57
+01:42:25,000 --> 01:42:26,760
+<font color="#ffffff">KNOCKING AT DOOR</font>
+

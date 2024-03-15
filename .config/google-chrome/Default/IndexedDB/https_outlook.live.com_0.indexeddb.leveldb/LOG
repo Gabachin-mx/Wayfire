@@ -1,0 +1,14 @@
+2024/03/15-16:29:33.791 4fe Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/15-16:29:33.792 4fe Recovering log #1272
+2024/03/15-16:29:33.792 4fe Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/001272.log 
+2024/03/15-16:29:33.792 4fe Delete type=2 #1271
+2024/03/15-16:29:33.801 4fe Level-0 table #1277: started
+2024/03/15-16:29:33.802 4fe Level-0 table #1277: 555 bytes OK
+2024/03/15-16:29:33.804 4fe Delete type=0 #1272
+2024/03/15-16:29:33.804 4fe Manual compaction at level-0 from ' ^\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' _\x01\x00\x00\x00' @ 0 : 0; will stop at ' ^\x01\x00\x00\x05' @ 6925 : 1
+2024/03/15-16:29:33.804 4fe Compacting 1@0 + 1@1 files
+2024/03/15-16:29:33.806 4fe Generated table #1278@0: 4 keys, 249 bytes
+2024/03/15-16:29:33.806 4fe Compacted 1@0 + 1@1 files => 249 bytes
+2024/03/15-16:29:33.808 4fe compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/15-16:29:33.808 4fe Delete type=2 #1277
+2024/03/15-16:29:33.808 4fe Manual compaction at level-0 from ' ^\x01\x00\x00\x05' @ 6925 : 1 .. ' _\x01\x00\x00\x00' @ 0 : 0; will stop at (end)

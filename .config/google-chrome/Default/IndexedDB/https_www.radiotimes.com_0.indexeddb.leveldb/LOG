@@ -1,0 +1,7 @@
+2024/02/07-00:05:06.835 550 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.radiotimes.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/07-00:05:06.835 550 Recovering log #3
+2024/02/07-00:05:06.835 550 Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_www.radiotimes.com_0.indexeddb.leveldb/000003.log 
+2024/02/07-00:09:27.350 551 Level-0 table #5: started
+2024/02/07-00:09:27.354 551 Level-0 table #5: 3801 bytes OK
+2024/02/07-00:09:27.357 551 Delete type=0 #3
+2024/02/07-00:09:27.358 551 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

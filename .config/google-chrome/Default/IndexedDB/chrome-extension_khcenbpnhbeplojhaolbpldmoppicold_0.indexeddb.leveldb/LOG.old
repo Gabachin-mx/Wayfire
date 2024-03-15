@@ -1,0 +1,17 @@
+2024/03/13-23:27:17.776 4e4 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/chrome-extension_khcenbpnhbeplojhaolbpldmoppicold_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-23:27:17.776 4e4 Recovering log #320
+2024/03/13-23:27:17.836 4e4 Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/chrome-extension_khcenbpnhbeplojhaolbpldmoppicold_0.indexeddb.leveldb/000320.log 
+2024/03/13-23:27:19.096 4e4 Level-0 table #332: started
+2024/03/13-23:27:19.123 4e4 Level-0 table #332: 1433763 bytes OK
+2024/03/13-23:27:19.128 4e4 Delete type=0 #320
+2024/03/13-23:27:19.157 4fb Compacting 1@1 + 8@2 files
+2024/03/13-23:27:19.197 4fb Generated table #333@1: 19747 keys, 2156967 bytes
+2024/03/13-23:27:19.238 4fb Generated table #334@1: 42871 keys, 2182663 bytes
+2024/03/13-23:27:19.295 4fb Generated table #335@1: 42670 keys, 2366785 bytes
+2024/03/13-23:27:19.357 4fb Generated table #336@1: 92370 keys, 2266527 bytes
+2024/03/13-23:27:19.410 4fb Generated table #337@1: 53782 keys, 2204559 bytes
+2024/03/13-23:27:19.462 4fb Generated table #338@1: 27765 keys, 2262640 bytes
+2024/03/13-23:27:19.522 4fb Generated table #339@1: 39366 keys, 2286514 bytes
+2024/03/13-23:27:19.536 4fb Generated table #340@1: 12198 keys, 490901 bytes
+2024/03/13-23:27:19.536 4fb Compacted 1@1 + 8@2 files => 16217556 bytes
+2024/03/13-23:27:19.542 4fb compacted to: files[ 0 0 8 0 0 0 0 ]

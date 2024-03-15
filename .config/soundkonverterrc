@@ -1,0 +1,189 @@
+[Advanced]
+ejectCdAfterRip=true
+maxSizeForSharedMemoryTempFiles=1955
+usePipes=false
+useSharedMemoryForTempFiles=false
+
+[BackendOptimizationsIgnoreList]
+count=0
+
+[Backends]
+3gp_decoders=FFmpeg
+3gp_encoders=
+3gp_replaygain=
+aac_decoders=FAAC,FFmpeg
+aac_encoders=FFmpeg
+aac_replaygain=
+ac3_decoders=FFmpeg
+ac3_encoders=FFmpeg
+ac3_replaygain=
+als_decoders=FFmpeg
+als_encoders=
+als_replaygain=
+amr nb_decoders=FFmpeg
+amr nb_encoders=
+amr nb_replaygain=
+amr wb_decoders=FFmpeg
+amr wb_encoders=
+amr wb_replaygain=
+ape_decoders=FFmpeg
+ape_encoders=
+ape_replaygain=
+audio cd_decoders=cdparanoia
+audio cd_encoders=
+audio cd_replaygain=
+avi_decoders=FFmpeg
+avi_encoders=
+avi_replaygain=
+enabledFilters=
+filters=
+flac_decoders=FLAC,FFmpeg
+flac_encoders=FLAC,FFmpeg
+flac_replaygain=Try internal,Metaflac
+flv_decoders=FFmpeg
+flv_encoders=
+flv_replaygain=
+formats=ogg vorbis,mp3,flac,m4a/aac,m4a/alac,wma,3gp,aac,ac3,als,amr nb,amr wb,ape,audio cd,avi,flv,midi,mkv,mod,mov,mp1,mp2,mp4,mpeg,musepack,ogv,opus,ra,rm,rv,sad,shorten,speex,tta,wavpack,webm,wmv
+m4a/aac_decoders=FAAC,FFmpeg
+m4a/aac_encoders=FFmpeg
+m4a/aac_replaygain=
+m4a/alac_decoders=FFmpeg
+m4a/alac_encoders=FFmpeg
+m4a/alac_replaygain=
+midi_decoders=FluidSynth
+midi_encoders=
+midi_replaygain=
+mkv_decoders=FFmpeg
+mkv_encoders=
+mkv_replaygain=
+mod_decoders=FluidSynth
+mod_encoders=
+mod_replaygain=
+mov_decoders=FFmpeg
+mov_encoders=
+mov_replaygain=
+mp1_decoders=FFmpeg
+mp1_encoders=
+mp1_replaygain=
+mp2_decoders=FFmpeg,lame
+mp2_encoders=FFmpeg
+mp2_replaygain=
+mp3_decoders=lame,FFmpeg
+mp3_encoders=lame,FFmpeg
+mp3_replaygain=
+mp4_decoders=FAAC,FFmpeg
+mp4_encoders=
+mp4_replaygain=
+mpeg_decoders=FFmpeg
+mpeg_encoders=
+mpeg_replaygain=
+musepack_decoders=FFmpeg
+musepack_encoders=
+musepack_replaygain=
+ogg vorbis_decoders=FFmpeg
+ogg vorbis_encoders=FFmpeg
+ogg vorbis_replaygain=
+ogv_decoders=FFmpeg
+ogv_encoders=
+ogv_replaygain=
+opus_decoders=
+opus_encoders=FFmpeg
+opus_replaygain=
+ra_decoders=FFmpeg
+ra_encoders=FFmpeg
+ra_replaygain=
+rm_decoders=FFmpeg
+rm_encoders=
+rm_replaygain=
+rv_decoders=FFmpeg
+rv_encoders=
+rv_replaygain=
+sad_decoders=FFmpeg
+sad_encoders=
+sad_replaygain=
+shorten_decoders=FFmpeg
+shorten_encoders=
+shorten_replaygain=
+speex_decoders=Speex,FFmpeg
+speex_encoders=Speex,FFmpeg
+speex_replaygain=
+tta_decoders=FFmpeg
+tta_encoders=FFmpeg
+tta_replaygain=
+wavpack_decoders=FFmpeg
+wavpack_encoders=FFmpeg
+wavpack_replaygain=
+webm_decoders=FFmpeg
+webm_encoders=
+webm_replaygain=
+wma_decoders=FFmpeg
+wma_encoders=FFmpeg
+wma_replaygain=
+wmv_decoders=FFmpeg
+wmv_encoders=
+wmv_replaygain=
+
+[CoverArt]
+writeCoverDefaultName=cover
+writeCoverName=0
+writeCovers=1
+
+[DirOpener]
+1920x1080 screen: Height=338
+1920x1080 screen: Width=752
+
+[FileOpener]
+1920x1080 screen: Height=380
+1920x1080 screen: Width=770
+
+[General]
+actionMenuConvertMimeTypes=application/ogg,audio/vorbis,application/x-ogg,audio/ogg,audio/x-vorbis+ogg,audio/x-mp3,audio/mpeg,audio/mp3,audio/flac,audio/x-flac,audio/x-flac+ogg,audio/x-oggflac,audio/mp4,audio/x-m4a,audio/mp4,audio/x-m4a,audio/x-ms-wma,video/3gpp,audio/3gpp,video/3gpp2,audio/3gpp2,audio/aac,audio/ac3,audio/mp4,audio/amr,audio/3gpp,audio/3gpp2,audio/amr-wb,audio/3gpp,audio/x-ape,video/x-msvideo,video/x-flv,video/flv,audio/midi,video/x-matroska,audio/x-mod,video/quicktime,audio/mpeg,audio/mpa,audio/mp2,audio/x-mp2,video/mp4,video/mpeg,audio/x-musepack,audio/musepack,video/ogg,audio/vnd.rn-realaudio,application/vnd.rn-realmedia,video/vnd.rn-realvideo,application/x-shorten,audio/x-speex,audio/x-speex+ogg,audio/x-tta,audio/x-wavpack,video/webm,video/x-ms-wmv,video/x-ms-asf,audio/x-wav,audio/wav
+actionMenuReplayGainMimeTypes=audio/flac,audio/x-flac,audio/x-flac+ogg,audio/x-oggflac
+configVersion=1006
+conflictHandling=0
+copyIfSameCodec=false
+copyStructureOutputDirectory=/home/paul/soundKonverter
+defaultFormat=Last used
+defaultProfile=Last used
+lastFormat=mp3
+lastMetaDataOutputDirectoryPaths=/home/paul/soundKonverter/%b/%d - %n - %a - %t
+lastNormalOutputDirectoryPaths=
+lastOutputDirectoryMode=0
+lastProfile=Medium
+lastTab=0
+metaDataOutputDirectory=/home/paul/soundKonverter/%b/%d - %n - %a - %t
+numFiles=12
+numReplayGainFiles=12
+preferredOggVorbisExtension=ogg
+preferredVorbisCommentCommentTag=DESCRIPTION
+preferredVorbisCommentDiscTotalTag=DISCTOTAL
+preferredVorbisCommentTrackTotalTag=TRACKTOTAL
+replayGainGrouping=0
+specifyOutputDirectory=/home/paul/soundKonverter
+startTab=0
+useVFATNames=false
+waitForAlbumGain=true
+writeLogFiles=false
+
+[KFileDialog Settings]
+1920x1080 screen: Height=507
+1920x1080 screen: Width=1067
+Recent Files[$e]=01 - The Central Scrutinizer.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/(04) [Blind Faith] Jam No.4 'Slow Jam %232'.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/(03) [Blind Faith] Jam No.3 'Change of Address Jam'.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/(02) [Blind Faith] Jam No.2 'Slow Jam %231'.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/(01) [Blind Faith] Jam No.1 'Very Long & Good Jam'.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(11) [Blind Faith] Sleeping in the Ground [Slow Blues Version].flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(10) [Blind Faith] Time Winds.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(09) [Blind Faith] Acoustic Jam.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(08) [Blind Faith] Can't Find My Way Home [Electric Version].flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(07) [Blind Faith] Sleeping in the Ground.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(06) [Blind Faith] Do What You Like.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(05) [Blind Faith] Sea of Joy.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(04) [Blind Faith] Presence of the Lord.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(03) [Blind Faith] Well All Right.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(02) [Blind Faith] Can't Find My Way Home.flac,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/(01) [Blind Faith] Had to Cry Today.flac,file:$HOME/Music/Blondie - Parallel Lines (1978) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/12.-Just Go Away.flac,file:$HOME/Music/Blondie - Parallel Lines (1978) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/11.-I'm Gonna Love You Too.flac,file:$HOME/Music/Blondie - Parallel Lines (1978) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/10.-Heart Of Glass.flac
+Recent URLs[$e]=file:$HOME/Music/(1979) Frank Zappa -  Joe's Garage Acts I\\, II & III [FLAC\\, tracks]/CD1/,file:$HOME/Music/(1979) Frank Zappa -  Joe's Garage Acts I\\, II & III [FLAC\\, tracks]/CD2/,file:$HOME/Music/(1979) Frank Zappa - Sheik Yerbouti [FLAC]/,file:$HOME/Music/Blondie - Parallel Lines (1978) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=678
+1920x1080 screen: Width=1236
+State=AAAA/wAAAAD9AAAAAAAABNQAAAJrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAHQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[Plugin-FFmpeg]
+codecList=ac3,libspeex,tta,libvorbis,wmav1,aac,wavpack,alac,libopus,libmp3lame,real_144,flac,wmav2,mp2,vorbis
+configVersion=3
+ffmpegLastModified=2023,10,11,13,58,49
+ffmpegVersionMajor=0
+ffmpegVersionMinor=0
+
+[Recent Dirs]
+soundkonverter-add-media[$e]=file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 2/,file:$HOME/Music/Blind Faith - Blind Faith (1969) 2-CD Deluxe Edition 2001 [Eric Clapton; Cream; Steve Winwood; Traffic] FLAC %23DrBN/Blind Faith/CD 1/,file:$HOME/Music/Blondie - Parallel Lines (1978) (UK PBTHAL LP 24-96) [FLAC] vtwin88cube/

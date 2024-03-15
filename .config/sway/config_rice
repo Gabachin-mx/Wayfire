@@ -1,0 +1,399 @@
+# vim: filetype=i3
+# i3 config file (v4)
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+# Set mod key (Mod1=<Alt>, Mod4=<Super>)
+set $mod Mod4
+set $alt Mod1
+set $term foot
+set $browser `$BROWSER`
+
+# set default desktop layout (default is tiling)
+# workspace_layout tabbed <stacking|tabbed>
+
+# Switch back to previously focused ws on ws switch command repeat
+workspace_auto_back_and_forth yes
+
+# Move mouse to focused container
+mouse_warping container
+
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+default_border pixel 2
+default_floating_border normal 2
+
+# Hide borders
+# hide_edge_borders both
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:monospace 9
+
+# Theme colors
+# class                   border  backgr. text    indic.  child_border
+  client.focused          #5b8277 #7fac96 #151517 #9eba86 #5b8277
+  client.focused_inactive #4d4d42 #32323e #7fac96 #424a4d #4d4d42
+  client.unfocused        #424a4d #212128 #fcf8e2 #424a4d #424a4d
+  client.urgent           #cb4b16 #fcf8e2 #1abc9c #268bd2 #cb4b16
+  client.placeholder      #fcf8e2 #0c0c0c #fcf8e2 #fcf8e2 #3f6e90
+
+  client.background       #151517
+
+titlebar_padding 6 2
+titlebar_border_thickness 2
+
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+# GTK settings
+set $gschema org.gnome.desktop.interface
+exec_always {
+	gsettings set $gschema gtk-theme	'Adwaita'
+	gsettings set $gschema icon-theme	'Arc'
+	gsettings set $gschema font-name	'monospace 10'
+	gsettings set $gschema color-scheme	'prefer-dark'
+}
+
+##### Startup scripts and programs #####
+# Audio
+exec pipewire-restart
+# Waybar
+exec waybar_launch
+# playerctl daemon for better MPRIS support
+exec playerctld daemon
+# Music daemon
+exec mpd-restart
+# Bluetooth adapter applet
+exec blueman-applet
+# Notification handler
+exec mako
+# Environment variables for cron scripts
+exec_always setsessionenv
+# xdg-desktop-portal screen sharing crap
+exec dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+# Workspace names
+# to display names or symbols instead of plain workspace numbers you can use
+# something like: set $ws1 1:mail
+#                 set $ws2 2:
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
+
+# Open specific applications in specific modes
+for_window [title="^alsamixer$"] floating enable
+for_window [title="^ncpamixer$"] floating enable
+for_window [title="^pacmixer$"] floating enable
+for_window [title="^Network Manager$"] floating enable
+for_window [title="i3_help"] floating enable, sticky enable
+for_window [class="Lightdm-settings"] floating enable
+for_window [class="Lxappearance"] floating enable, sticky enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="^qt5ct$"] floating enable, sticky enable
+for_window [class="(?i)System-config-printer.py"] floating enable
+for_window [title="wl-clipboard"] floating enable
+for_window [class="GLava"] border none
+for_window [app_id=".*telegram.*"] sticky enable
+for_window [app_id="zoom"] floating enable
+
+# Webcam window
+for_window [title="mpvfloat"] floating enable, sticky enable
+no_focus [title="mpvfloat"]
+
+# Dropdown-like windows
+
+# Quake-like Terminal dropdown
+for_window [title="^ddterminal$"] floating enable, sticky enable
+#for_window [title="^ddterminal$"] border none
+
+# Don't display mouse cursor while typing
+seat * hide_cursor when-typing enable
+
+# Tex Shinobi Trackpoint 
+input 1241:1031:USB-HID_Keyboard_Mouse {
+	accel_profile adaptive
+	pointer_accel 0
+	middle_emulation enabled
+}
+
+# Thinkpad Compact Keyboard (External) Trackpoint 
+input 6127:24647:Lenovo_ThinkPad_Compact_USB_Keyboard_with_TrackPoint {
+	accel_profile flat
+	pointer_accel 1
+}
+
+# Desktop mouse
+input 1118:2083:Microsoft_Microsoft___Classic_IntelliMouse__ {
+	accel_profile flat
+	pointer_accel 0.5
+}
+
+# Keymaps
+input * {
+	xkb_layout "us,es,ru"
+	xkb_options "lv3:ralt_switch,grp:alt_shift_toggle,misc:typo,caps:escape,grp_led:caps"
+}
+
+# Set inner/outer gaps
+set $igaps 10
+set $ogaps 0
+gaps inner $igaps
+gaps outer $ogaps
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+# smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders no_gaps
+
+##### Bindsyms (layout-independent) #####
+bindsym --to-code {
+
+	# Switch to specific keyboard layout
+	$mod+Alt+1 input type:keyboard xkb_switch_layout 0
+	$mod+Alt+2 input type:keyboard xkb_switch_layout 1
+	$mod+Alt+3 input type:keyboard xkb_switch_layout 2
+
+	# start a terminal
+	$mod+Return exec $term
+
+	# kill focused window
+	$mod+Shift+q kill
+	$mod+q kill
+
+	# rofi launcher
+	$mod+d exec rofi -show drun -sidebar-mode -modi "drun,run,file-browser-extended,ssh,combi"
+
+	# Mako (notifications)
+	$mod+Ctrl+space       exec "makoctl dismiss"
+	$mod+Ctrl+Shift+space exec "makoctl restore"
+
+	# Menus/Quick actions
+	$mod+Shift+w exec rofi -show websurf -modi "websurf:rofiwebsurf"
+	$mod+F1 exec menuman
+	$mod+Shift+F1 exec menuman -s
+	$mod+F2 exec menumako
+	$mod+F3 exec rofi -show display -modi "display:rofidisplay"
+	$mod+F4 exec menublk
+	$mod+F9 exec notistats
+	$mod+F11 exec "killall -10 waybar"
+	$mod+F10 exec chcolors
+	$mod+F12 exec rofi -show tz -modi "tz:rofitz"
+	$mod+Shift+n exec networkmanager_dmenu
+	$mod+Shift+c exec rofi -show calc -modi calc -no-show-match -no-sort
+	$mod+grave exec rofi -show moji -modi "moji:rofimoji"
+	$mod+Shift+m exec $term -T "ncpamixer" 'ncpamixer'
+	$mod+Ctrl+m exec rofi -show audio -modi "audio:rofiaudio"
+	$mod+Shift+e exec rofi -show session -matching prefix -modi "session:rofisession"
+
+	# Application Shortcuts
+	$mod+s exec $browser
+	$mod+t exec toggletorrent
+	$mod+Ctrl+t exec launch-transmission
+	$mod+m exec $term ncmpcpp
+	$mod+n exec $term -T "newsboat" newsboat && killall -42 waybar
+	$mod+a exec $term -T "neomutt" neomutt
+	$mod+c exec camtoggle
+
+	# Password manager
+	$mod+apostrophe exec menupass
+	$mod+Shift+apostrophe exec "menupass -l"
+	$mod+Ctrl+apostrophe exec "menupass -f"
+	$mod+Ctrl+Shift+apostrophe exec "menupass -s"
+
+	# Screenshot and recording
+	Print exec screensht "full screen"
+	$mod+Print exec rofi -show grim -modi "grim:rofigrim"
+	Ctrl+Print exec swayrecord
+
+	# scratchpad shortcuts
+	$mod+bracketleft scratchpad show
+	$mod+Shift+bracketleft move scratchpad
+
+	# Dropdown/scratchpad applications
+	$mod+Shift+p exec ddquakemite
+	$mod+Ctrl+p exec ddquakemite -r
+
+	# Switch/swap windows
+	$mod+bracketright exec menuwin
+	$mod+Shift+bracketright exec menuwin -s
+
+	# Sticky float to a bottom corner
+	$mod+Shift+b floating toggle; sticky toggle; exec picinpic
+	$mod+Ctrl+b floating toggle; sticky toggle; exec picinpic left
+
+	# change focus
+	$mod+h focus left
+	$mod+j focus down
+	$mod+k focus up
+	$mod+l focus right
+	$mod+z focus parent
+	$mod+shift+z focus child
+
+	# alternatively, you can use the cursor keys:
+	$mod+Left focus left
+	$mod+Down focus down
+	$mod+Up focus up
+	$mod+Right focus right
+
+	# move focused window
+	$mod+Shift+h move left
+	$mod+Shift+j move down
+	$mod+Shift+k move up
+	$mod+Shift+l move right
+
+	# alternatively, you can use the cursor keys:
+	$mod+Shift+Left move left
+	$mod+Shift+Down move down
+	$mod+Shift+Up move up
+	$mod+Shift+Right move right
+
+	# split orientation
+	$mod+b split h
+	$mod+v split v
+
+	# toggle fullscreen mode for the focused container
+	$mod+f fullscreen toggle
+
+	# change container layout (stacked, tabbed, toggle split)
+	$mod+slash layout stacking
+	$mod+w layout tabbed
+	$mod+e layout toggle split
+
+	# toggle tiling / floating
+	$mod+Shift+space floating toggle
+
+	# change focus between tiling / floating windows
+	$mod+space focus mode_toggle
+
+	# toggle sticky
+	$mod+Shift+s sticky toggle
+
+	#navigate workspaces next / previous
+	$mod+Tab		workspace next
+	$mod+Shift+Tab	workspace prev
+
+	# switch to workspace
+	$mod+1 workspace $ws1
+	$mod+2 workspace $ws2
+	$mod+3 workspace $ws3
+	$mod+4 workspace $ws4
+	$mod+5 workspace $ws5
+	$mod+6 workspace $ws6
+	$mod+7 workspace $ws7
+	$mod+8 workspace $ws8
+	$mod+9 workspace $ws9
+	$mod+0 workspace $ws10
+
+	# Move focused container to workspace
+	$mod+Ctrl+1 move container to workspace $ws1
+	$mod+Ctrl+2 move container to workspace $ws2
+	$mod+Ctrl+3 move container to workspace $ws3
+	$mod+Ctrl+4 move container to workspace $ws4
+	$mod+Ctrl+5 move container to workspace $ws5
+	$mod+Ctrl+6 move container to workspace $ws6
+	$mod+Ctrl+7 move container to workspace $ws7
+	$mod+Ctrl+8 move container to workspace $ws8
+	$mod+Ctrl+9 move container to workspace $ws9
+	$mod+Ctrl+0 move container to workspace $ws10
+
+	# Move to workspace with focused container
+	$mod+Shift+1 move container to workspace $ws1; workspace $ws1
+	$mod+Shift+2 move container to workspace $ws2; workspace $ws2
+	$mod+Shift+3 move container to workspace $ws3; workspace $ws3
+	$mod+Shift+4 move container to workspace $ws4; workspace $ws4
+	$mod+Shift+5 move container to workspace $ws5; workspace $ws5
+	$mod+Shift+6 move container to workspace $ws6; workspace $ws6
+	$mod+Shift+7 move container to workspace $ws7; workspace $ws7
+	$mod+Shift+8 move container to workspace $ws8; workspace $ws8
+	$mod+Shift+9 move container to workspace $ws9; workspace $ws9
+	$mod+Shift+0 move container to workspace $ws10; workspace $ws10
+
+	# reload the configuration file
+	$mod+Shift+r reload
+
+	# restart waybar
+	$mod+Ctrl+r exec waybar_launch
+
+	# Resize
+	$mod+Shift+y	exec swayresize left
+	$mod+Shift+u	exec swayresize down
+	$mod+Shift+i	exec swayresize up
+	$mod+Shift+o	exec swayresize right
+	$mod+Ctrl+y		exec swayresize left 10
+	$mod+Ctrl+u		exec swayresize down 10
+	$mod+Ctrl+i		exec swayresize up 10
+	$mod+Ctrl+o		exec swayresize right 10
+	$mod+y			exec menuresize left
+	$mod+u			exec menuresize down
+	$mod+i			exec menuresize up
+	$mod+o			exec menuresize right
+	$mod+p			exec menuresize
+
+	# Lock screen
+	$mod+x			exec lock-color
+	$mod+Shift+x	exec lock-color screenon
+
+	# Gaps
+	$mod+semicolon			gaps inner current set $igaps; gaps outer current set $ogaps
+	$mod+Shift+semicolon	gaps inner current set 0; gaps outer current set 0
+	$mod+Ctrl+semicolon		gaps inner current set 45; gaps outer current set 15
+	$mod+period			    gaps outer current plus 5
+	$mod+Shift+period		gaps outer current minus 5
+	$mod+comma				gaps inner current plus 5
+	$mod+Shift+comma		gaps inner current minus 5
+
+	#### Shortcuts to control my other computer through ssh ####
+
+	# Media keys
+	$mod+XF86AudioPrev		exec exremote "lmc prev"
+	$mod+XF86AudioPlay		exec exremote "lmc toggle"
+	$mod+XF86AudioNext		exec exremote "lmc next"
+	$mod+XF86AudioRaiseVolume		exec exremote "lmc up 5"
+	$mod+XF86AudioLowerVolume		exec exremote "lmc down 5"
+	$mod+XF86AudioMute exec exremote "lmc mute"
+
+	$mod+Ctrl+Shift+F5   exec exremote "lmc back 5"
+	$mod+Ctrl+F5     		exec exremote "lmc prev"
+	$mod+Ctrl+F6     		exec exremote "lmc toggle"
+	$mod+Ctrl+F7     		exec exremote "lmc next"
+	$mod+Ctrl+Shift+F7   exec exremote "lmc forward 5"
+
+	# Remote computer's clipboard
+	$mod+Ctrl+c exec clipremote copy
+	$mod+Ctrl+v exec clipremote paste
+}
+
+##### Bindsyms (layout-independent lock-screen-independent) #####
+bindsym --to-code --locked {
+	# Screen brightness controls
+	XF86MonBrightnessUp   exec "xbacklight -inc 5"
+	XF86MonBrightnessDown exec "xbacklight -dec 5"
+	$mod+Ctrl+Up          exec "xbacklight -inc 5"
+	$mod+Ctrl+Down        exec "xbacklight -dec 5"
+
+	# Media keys
+	XF86AudioPrev		        exec "lmc prev"
+	XF86AudioPlay		        exec "lmc toggle"
+	XF86AudioNext		        exec "lmc next"
+	XF86AudioRaiseVolume		exec lmc up 5
+	XF86AudioLowerVolume		exec lmc down 5
+	XF86AudioMute           exec lmc mute
+
+	$mod+Shift+F5   exec lmc back 5
+	$mod+F5     		exec lmc prev
+	$mod+F6     		exec lmc toggle
+	$mod+F7     		exec lmc next
+	$mod+Shift+F7   exec lmc forward 5
+	$mod+F8         exec playerctl loop Track
+	$mod+Shift+F8   exec playerctl loop None
+}
+
+include "~/.config/sway/`uname -n`"

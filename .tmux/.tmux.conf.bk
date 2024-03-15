@@ -1,0 +1,154 @@
+# Send prefix
+set-option -g prefix C-x
+unbind-key C-x
+bind-key C-x send-prefix
+ 
+# Use Alt-arrow keys to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+ 
+# Shift arrow to switch windows
+bind -n S-Left previous-window
+bind -n S-Right next-window
+
+# bind-key C Left resizes window to left. Similarly for other directions.
+
+# Confirm window kills
+bind-key q confirm kill-window
+bind-key Q confirm kill-server
+
+# Enable titles
+set -g set-titles on
+
+# Border color
+set -g pane-border-style fg=magenta
+set -g pane-active-border-style "fg=brightred"
+#set -g pane-active-border-style "bg=default fg=magenta"
+
+# Copy/paste with mouse (requires yank plugin)
+set -g mouse on
+bind -T copy-mode    DoubleClick1Pane select-pane \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+bind -T copy-mode-vi DoubleClick1Pane select-pane \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+bind -n DoubleClick1Pane select-pane \; copy-mode -M \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+bind -T copy-mode    TripleClick1Pane select-pane \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+bind -T copy-mode-vi TripleClick1Pane select-pane \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+bind -n TripleClick1Pane select-pane \; copy-mode -M \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+bind -n MouseDown2Pane run "tmux set-buffer -b primary_selection \"$(xsel -o)\"; tmux paste-buffer -b primary_selection; tmux delete-buffer -b primary_selection"
+
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @yank_action 'copy-pipe-no-clear'
+bind -T copy-mode    C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
+bind -T copy-mode-vi C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
+
+# The statusbar 
+
+# Toggle statusbar
+bind-key s set-option status
+
+# Refresh status line every 30 seconds - any lower and the CPU freaks out
+set -g status-interval 30
+
+# Start window and pane indices at 1.
+set -g base-index 1
+set -g pane-base-index 0
+
+# Length of tmux status line
+set -g status-left-length 30
+set -g status-right-length 150
+
+set-option -g status "on"
+
+# Default statusbar color
+set-option -g status-style bg=colour237,fg=colour223 # bg=bg1, fg=fg1
+
+# Default window title colors
+set-window-option -g window-status-style bg=colour214,fg=colour237 # bg=yellow, fg=bg1
+
+# Default window with an activity alert
+set-window-option -g window-status-activity-style bg=colour237,fg=colour248 # bg=bg1, fg=fg3
+
+# Active window title colors
+set-window-option -g window-status-current-style bg=red,fg=colour237 # fg=bg1
+
+# # Set active pane border color
+# set-option -g pane-active-border-style fg=colour214
+# 
+# # Set inactive pane border color
+# set-option -g pane-border-style fg=colour239
+
+# Message info
+set-option -g message-style bg=colour239,fg=colour223 # bg=bg2, fg=fg1
+
+# Writing commands inactive
+set-option -g message-command-style bg=colour239,fg=colour223 # bg=fg3, fg=bg1
+
+# Pane number display
+set-option -g display-panes-active-colour colour1 #fg2
+set-option -g display-panes-colour colour237 #bg1
+
+# Clock
+set-window-option -g clock-mode-colour colour109 #blue
+
+# Bell
+set-window-option -g window-status-bell-style bg=colour167,fg=colour235 # bg=red, fg=bg
+
+
+set-option -g status-left "\
+#[fg=colour223, bg=colour237]#{?client_prefix,#[bg=colour237],} ❐ #S \
+#[fg=colour223, bg=colour237]#{?client_prefix,#[fg=colour237],}#{?window_zoomed_flag, 🔍,}"
+
+set-option -g status-right "\
+#[fg=colour223, bg=colour237] \
+#[fg=colour223, bg=colour237] #(~/.local/bin/memory) \
+#[fg=colour223, bg=colour237] #(~/.local/bin/cpu_percentage) \
+#[fg=colour223, bg=colour237] #(~/.local/bin/temp1) \
+#[fg=colour223, bg=colour237]  %b %d '%y\
+#[fg=colour223]  %H:%M \
+#[fg=colour223, bg=colour237]"
+
+set-window-option -g window-status-current-format "\
+#[fg=colour223, bg=colour237]\
+#[fg=colour223, bg=colour237] #I* \
+#[fg=colour223, bg=colour237, bold] #W \
+#[fg=colour223, bg=colour237]"
+
+set-window-option -g window-status-format "\
+#[fg=colour237,bg=colour239,noitalics]\
+#[fg=colour223,bg=colour239] #I \
+#[fg=colour223, bg=colour239] #W \
+#[fg=colour239, bg=colour237]"
+
+# Set the history limit so we get lots of scrollback.
+setw -g history-limit 50000000
+
+
+# Source sessions
+bind i source-file ~/.tmux-sessions.conf
+
+# Reload Config
+bind r source-file ~/.tmux.conf
+ 
+# Mouse mode
+setw -g mouse on
+ 
+# Set easier window split keys
+bind-key v split-window -h
+bind-key h split-window -v
+
+#make using kebindings easier
+set -g repeat-time 1000
+
+#turn this off to reduce CPU load
+setw -g automatic-rename off
+ 
+# Easy config reload
+bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded."
+
+#plugins
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+#Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'

@@ -1,0 +1,80 @@
+* {
+  font-family: JetBrains Mono, Symbols Nerd Font;
+  font-size: 24px;
+  transition-property: background-color;
+  transition-duration: 0.7s;
+}
+window {
+  background-image: image(url("/home/paul/Wallpapers/wlogout.png"));
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: black;
+  outline-style: none;
+  margin: 10px;
+  padding: 40px;
+
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  background-color: rgba(30, 30, 46, 0);
+}
+
+button:hover {
+	color: @foreground;
+    background-color: @color11;
+    border-color: @color12;
+	margin-left : 30px;
+	margin-bottom : 30px;
+	border-radius: 20px;
+}
+
+button:focus {
+  background-color: #076678;
+}
+
+
+grid {
+  border-radius: 30px;
+  margin: 100px 100px;
+  padding: 10px;
+  background-color: @background;
+}
+
+
+/* #lock { */
+/*   background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png")); */
+/* } */
+
+/* #logout { */
+/*   background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png")); */
+/* } */
+
+/* #suspend { */
+/*   background-image: image( */
+/*     url("/usr/share/wlogout/icons/suspend.png"), */
+/*     url("/usr/local/share/wlogout/icons/suspend.png") */
+/*   ); */
+/* } */
+
+/* #hibernate { */
+/*   background-image: image( */
+/*     url("/usr/share/wlogout/icons/hibernate.png"), */
+/*     url("/usr/local/share/wlogout/icons/hibernate.png") */
+/*   ); */
+/* } */
+
+/* #shutdown { */
+/*   background-image: image( */
+/*     url("/usr/share/wlogout/icons/shutdown.png"), */
+/*     url("/usr/local/share/wlogout/icons/shutdown.png") */
+/*   ); */
+/* } */
+
+/* #reboot { */
+/*   background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png")); */
+/* } */

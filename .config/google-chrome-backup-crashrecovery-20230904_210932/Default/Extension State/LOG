@@ -1,0 +1,15 @@
+2023/09/04-20:04:49.206 95b Reusing MANIFEST /home/paul/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2023/09/04-20:04:49.206 95b Recovering log #424
+2023/09/04-20:04:49.212 95b Reusing old log /home/paul/.config/google-chrome/Default/Extension State/000424.log 
+2023/09/04-20:05:35.282 958 Level-0 table #428: started
+2023/09/04-20:05:35.288 958 Level-0 table #428: 2754028 bytes OK
+2023/09/04-20:05:35.290 958 Delete type=0 #424
+2023/09/04-20:05:35.291 958 Compacting 4@0 + 1@1 files
+2023/09/04-20:05:35.300 958 Generated table #429@0: 6 keys, 13723 bytes
+2023/09/04-20:05:35.300 958 Compacted 4@0 + 1@1 files => 13723 bytes
+2023/09/04-20:05:35.300 958 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/04-20:05:35.300 958 Delete type=2 #428
+2023/09/04-20:05:35.300 958 Delete type=2 #425
+2023/09/04-20:05:35.300 958 Delete type=2 #422
+2023/09/04-20:05:35.300 958 Delete type=2 #420
+2023/09/04-20:05:35.300 958 Delete type=2 #417

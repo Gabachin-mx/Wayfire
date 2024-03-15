@@ -1,0 +1,24 @@
+2023/09/01-18:42:26.996 46e Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/01-18:42:26.996 46e Recovering log #416
+2023/09/01-18:42:26.996 46e Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/000416.log 
+2023/09/01-18:42:27.228 47c Level-0 table #421: started
+2023/09/01-18:42:27.230 47c Level-0 table #421: 1782 bytes OK
+2023/09/01-18:42:27.233 47c Delete type=0 #416
+2023/09/01-18:42:27.233 46e Manual compaction at level-0 from '\x00s\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00t\x00\x00\x00' @ 0 : 0; will stop at '\x00t\x00\x00\x05' @ 7044 : 1
+2023/09/01-18:42:27.233 46e Compacting 1@0 + 1@1 files
+2023/09/01-18:42:27.235 46e Generated table #422@0: 7 keys, 385 bytes
+2023/09/01-18:42:27.235 46e Compacted 1@0 + 1@1 files => 385 bytes
+2023/09/01-18:42:27.237 46e compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/01-18:42:27.237 46e Delete type=2 #421
+2023/09/01-18:42:27.238 46e Manual compaction at level-0 from '\x00t\x00\x00\x05' @ 7044 : 1 .. '\x00t\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/01-18:42:27.238 46e Level-0 table #424: started
+2023/09/01-18:42:27.240 46e Level-0 table #424: 484 bytes OK
+2023/09/01-18:42:27.243 46e Delete type=2 #418
+2023/09/01-18:42:27.243 46e Delete type=0 #420
+2023/09/01-18:42:27.243 46e Manual compaction at level-0 from '\x00t\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00u\x00\x00\x00' @ 0 : 0; will stop at '\x00t\x00\x00\x05' @ 7093 : 0
+2023/09/01-18:42:27.243 46e Compacting 1@0 + 1@1 files
+2023/09/01-18:42:27.245 46e Generated table #425@0: 4 keys, 247 bytes
+2023/09/01-18:42:27.245 46e Compacted 1@0 + 1@1 files => 247 bytes
+2023/09/01-18:42:27.248 46e compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/01-18:42:27.248 46e Delete type=2 #424
+2023/09/01-18:42:27.248 46e Manual compaction at level-0 from '\x00t\x00\x00\x05' @ 7093 : 0 .. '\x00u\x00\x00\x00' @ 0 : 0; will stop at (end)

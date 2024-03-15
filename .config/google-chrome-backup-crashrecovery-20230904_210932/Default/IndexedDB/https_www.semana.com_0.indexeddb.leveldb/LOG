@@ -1,0 +1,6 @@
+2023/02/03-17:27:29.445 29313 Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_www.semana.com_0.indexeddb.leveldb since it was missing.
+2023/02/03-17:27:29.455 29313 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.semana.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/03-17:40:31.102 2a00f Level-0 table #5: started
+2023/02/03-17:40:31.105 2a00f Level-0 table #5: 866 bytes OK
+2023/02/03-17:40:31.109 2a00f Delete type=0 #3
+2023/02/03-17:40:31.109 2a00f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

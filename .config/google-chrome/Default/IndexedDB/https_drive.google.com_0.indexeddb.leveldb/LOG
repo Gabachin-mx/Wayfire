@@ -1,0 +1,47 @@
+2024/03/15-16:28:48.843 4ff Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/15-16:28:48.843 4ff Recovering log #392
+2024/03/15-16:28:48.852 4ff Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000392.log 
+2024/03/15-16:28:53.324 4ff Expanding@1 1+2 (1191784+2387196 bytes) to 2+2 (3313978+2387196 bytes)
+2024/03/15-16:28:53.324 4ff Compacting 2@1 + 2@2 files
+2024/03/15-16:28:53.357 4ff Generated table #414@1: 2276 keys, 2121932 bytes
+2024/03/15-16:28:53.388 4ff Generated table #415@1: 2469 keys, 2123729 bytes
+2024/03/15-16:28:53.416 4ff Generated table #416@1: 27578 keys, 1243561 bytes
+2024/03/15-16:28:53.416 4ff Compacted 2@1 + 2@2 files => 5489222 bytes
+2024/03/15-16:28:53.418 4ff compacted to: files[ 0 3 14 0 0 0 0 ]
+2024/03/15-16:28:53.418 4ff Delete type=2 #395
+2024/03/15-16:28:53.418 4ff Delete type=2 #406
+2024/03/15-16:28:53.418 4ff Delete type=2 #405
+2024/03/15-16:28:53.418 4ff Delete type=2 #365
+2024/03/15-16:28:53.447 4fe Level-0 table #418: started
+2024/03/15-16:28:53.466 4fe Level-0 table #418: 1435288 bytes OK
+2024/03/15-16:28:53.468 4fe Delete type=0 #392
+2024/03/15-16:28:53.470 4fe Compacting 1@0 + 3@1 files
+2024/03/15-16:28:53.502 4fe Generated table #419@0: 12586 keys, 2137289 bytes
+2024/03/15-16:28:53.532 4fe Generated table #420@0: 5423 keys, 2127730 bytes
+2024/03/15-16:28:53.532 4fe Level-0 table #422: started
+2024/03/15-16:28:53.552 4fe Level-0 table #422: 1774004 bytes OK
+2024/03/15-16:28:53.560 4fe Delete type=0 #417
+2024/03/15-16:28:53.596 4fe Generated table #423@0: 2060 keys, 2123622 bytes
+2024/03/15-16:28:53.615 4fe Generated table #424@0: 4710 keys, 1139852 bytes
+2024/03/15-16:28:53.618 4fe Generated table #425@0: 1694 keys, 26325 bytes
+2024/03/15-16:28:53.618 4fe Compacted 1@0 + 3@1 files => 7554818 bytes
+2024/03/15-16:28:53.624 4fe compacted to: files[ 1 5 14 0 0 0 0 ]
+2024/03/15-16:28:53.625 4fe Delete type=2 #404
+2024/03/15-16:28:53.625 4fe Delete type=2 #403
+2024/03/15-16:28:53.625 4fe Delete type=2 #418
+2024/03/15-16:28:53.625 4fe Delete type=2 #402
+2024/03/15-16:29:34.102 4ff Compacting 1@0 + 5@1 files
+2024/03/15-16:29:34.151 4ff Generated table #426@0: 12152 keys, 2138998 bytes
+2024/03/15-16:29:34.176 4ff Generated table #427@0: 2476 keys, 2128255 bytes
+2024/03/15-16:29:34.204 4ff Generated table #428@0: 5140 keys, 2124725 bytes
+2024/03/15-16:29:34.245 4ff Generated table #429@0: 2328 keys, 2133877 bytes
+2024/03/15-16:29:34.259 4ff Generated table #430@0: 4074 keys, 697218 bytes
+2024/03/15-16:29:34.264 4ff Generated table #431@0: 3085 keys, 56871 bytes
+2024/03/15-16:29:34.264 4ff Compacted 1@0 + 5@1 files => 9279944 bytes
+2024/03/15-16:29:34.266 4ff compacted to: files[ 0 6 14 0 0 0 0 ]
+2024/03/15-16:29:34.267 4ff Delete type=2 #424
+2024/03/15-16:29:34.267 4ff Delete type=2 #425
+2024/03/15-16:29:34.267 4ff Delete type=2 #419
+2024/03/15-16:29:34.267 4ff Delete type=2 #423
+2024/03/15-16:29:34.267 4ff Delete type=2 #422
+2024/03/15-16:29:34.267 4ff Delete type=2 #420

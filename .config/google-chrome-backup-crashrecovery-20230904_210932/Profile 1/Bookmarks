@@ -1,0 +1,45 @@
+{
+   "checksum": "f6e41b9028fe65e0a20c3c1ed85bfda3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13258742823438927",
+            "date_last_used": "0",
+            "guid": "edddc6ea-fa49-497c-bf4f-5b1eb0db83e5",
+            "id": "5",
+            "name": "Watch CNN Live Stream in HD Free From United States",
+            "type": "url",
+            "url": "https://www.livenewsworld.com/watchcnnlivestream/"
+         } ],
+         "date_added": "13335556254699822",
+         "date_last_used": "0",
+         "date_modified": "13258742823438927",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13335556254699824",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13335556254699825",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CqcDCoYDCIiBAhL/AhJSCAISTgoGCgJibRABEDMaEgkAnIHSBwIGACEAnIHSBwIGACIUCR8JfuIHAgYAEAMZDRIC+BMJoJMyGAoWCAIRDm+S4gcCBgAYACEAAAAAAAAAACAAkgGgAgrWAQoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJobKS4gcCBgARobKS4gcCBgAiNAkeCX7iBwIGABADGfcGSu260oSuIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAkeCX7iBwIGABADGfcGSu260oSuIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAkeCX7iBwIGABADGfcGSu260oSuIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpLY+T4gcCBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgkAMTzdBwIGABEAMTzdBwIGACkir5LiBwIGADCA4vDp/cCAA7oBAggBEgAqGFp3d1QyUEZ4VmdGbFFBRDYrdmdpVmc9PUgDEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeDAvK210UmJZalpCUnBTRWx0SEs1eEFiYVVJZzY2QVNQVCtoTlhSQ1NkZkJDUk45NjFIVzhFYWl4L2RJWG9VNkw4NGQ0MxgAIAAoADCekviT/sCAAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeGROa2JUTU1ST0hyMEVlMEwxTVVtUzBLZnRheXByeUVYbW9Pek5zSDUyV2pqRENnS0FQbFNHNnJGT0p5UU9ONzI5Vko2am04SE9jOEFBZGNlVWtubDhOWHJsbVE9PRgAIAAoADCekviT/sCAAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqwCCAUSpwIKHGh6TEZRSHhyT1owcmRaclpMSGxNZnY3VlZYOD0SpgFaOkFEcXRBWnlLUTUza0JEdDNHbThGTkpwT2VQZEc4UXBvbjdsVEVqODQvdGZtSFRYQnFDckh3SjZWWG42Ti81UENRRTZ6MmVuM2JTY1F2ZXNRR2JJdGx0eWozajg5dC9lV1RhOWRrWGFBZXJPM1lEeWkyVHpPTENsSnlDWWZrWHBFVXhNcmMxUHFTZmFHbXAwc05idEJwZVZ6MEN1cjFFM3d5dz09GAAgACgAMPftmNXLnvoCOI+kxs/9LkCPpMbP/S5KHCtvRGowMUg5alFMNVhKVjdsdGUyNGd5WWIvZz1aHiIcbnF0dk1haWk4ZjlxZTZPYU5Ga2UrN3VnWVlZPWUAAAAAEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeGRMVlorSzd0UzFOTFplbENGc0JIWGQvdVJURC9yQndHZFQ1MDR1SHIvWVFXb2N6ckYzSGJadEhjZEIxMnBROXdidjZQcjlydXdxbERJN3dtRVF4NlV2NkxiWWc9PRgAIAAoADCekviT/sCAAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

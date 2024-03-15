@@ -1,0 +1,62 @@
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1280x720 screen: Height=670
+1280x720 screen: Width=1280
+1280x720 screen: Window-Maximized=true
+1280x720 screen: XPosition=0
+1280x720 screen: YPosition=50
+1333x749 screen: Window-Maximized=true
+1333x750 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAAAAABaAAACePwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABDAAACeAAAAQoA///+AAACMAAAAngAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1280x720=703
+eDP-1 Height 1920x1080=1030
+eDP-1 Height 960x540=528
+eDP-1 Width 1280x720=1277
+eDP-1 Width 1920x1080=1914
+eDP-1 Width 960x540=958
+eDP-1 XPosition 1280x720=1
+eDP-1 XPosition 1920x1080=3
+eDP-1 XPosition 960x540=1
+eDP-1 YPosition 1280x720=15
+eDP-1 YPosition 1920x1080=26
+eDP-1 YPosition 960x540=1
+eDP1=eDP1
+eDP1 Height 1280x720=689
+eDP1 Height 1280x720 eDP1=691
+eDP1 Width 1280x720=1280
+eDP1 Width 1280x720 eDP1=1280
+eDP1 XPosition 1280x720=0
+eDP1 XPosition 1280x720 eDP1=0
+eDP1 YPosition 1280x720=31
+eDP1 YPosition 1280x720 eDP1=29
+
+[Recent Files]
+File1[$e]=$HOME/Documents/Paul-Renato-Toppo-chap.pdf
+File10[$e]=$HOME/Downloads/NFFBAR.pdf
+File2[$e]=$HOME/Downloads/maxresdefault.jpg
+File3[$e]=$HOME/Documents/Banorte_Marzo2023.pdf
+File4[$e]=$HOME/Documents/ITAM/Calculo_II/Geometría Analítica Moderna.pdf
+File5[$e]=$HOME/Documents/ITAM/Calculo_II/Stewart for CalcII eco.pdf
+File6[$e]=$HOME/Downloads/xps15.jpg
+File7[$e]=/usr/share/pixmaps/0127.jpg
+File8[$e]=/usr/share/sddm/themes/maldives/background.jpg
+File9[$e]=/usr/share/sddm/themes/maldives/rectangle.png
+Name1[$e]=Paul-Renato-Toppo-chap.pdf
+Name10[$e]=NFFBAR.pdf
+Name2[$e]=maxresdefault.jpg
+Name3[$e]=Banorte_Marzo2023.pdf
+Name4[$e]=Geometría Analítica Moderna.pdf
+Name5[$e]=Stewart for CalcII eco.pdf
+Name6[$e]=xps15.jpg
+Name7[$e]=0127.jpg
+Name8[$e]=background.jpg
+Name9[$e]=rectangle.png
