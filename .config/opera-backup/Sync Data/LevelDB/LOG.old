@@ -1,6 +1,0 @@
-2023/05/10-14:42:40.877 14ca Reusing MANIFEST /home/paul/.config/opera/Sync Data/LevelDB/MANIFEST-000001
-2023/05/10-14:42:40.879 14ca Recovering log #23
-2023/05/10-14:42:40.881 14ca Reusing old log /home/paul/.config/opera/Sync Data/LevelDB/000023.log 
-2023/05/10-14:42:41.462 15e5 Level-0 table #27: started
-2023/05/10-14:42:41.466 15e5 Level-0 table #27: 114735 bytes OK
-2023/05/10-14:42:41.470 15e5 Delete type=0 #23
