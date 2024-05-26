@@ -1,9 +1,0 @@
-2024/03/15-16:28:44.975 4fe Reusing MANIFEST /home/paul/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/03/15-16:28:44.988 4fe Recovering log #657
-2024/03/15-16:28:45.000 4fe Reusing old log /home/paul/.config/google-chrome/Default/Sync Data/LevelDB/000657.log 
-2024/03/15-16:28:47.958 532 Level-0 table #662: started
-2024/03/15-16:28:47.964 532 Level-0 table #662: 128456 bytes OK
-2024/03/15-16:28:47.974 532 Delete type=0 #657
-2024/03/15-16:28:48.305 517 Level-0 table #664: started
-2024/03/15-16:28:48.308 517 Level-0 table #664: 104869 bytes OK
-2024/03/15-16:28:48.310 517 Delete type=0 #661

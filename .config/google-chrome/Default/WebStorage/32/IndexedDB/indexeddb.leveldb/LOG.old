@@ -1,6 +1,0 @@
-2024/03/13-00:07:51.007 6c3e Reusing MANIFEST /home/paul/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/03/13-00:07:51.007 6c3e Recovering log #20
-2024/03/13-00:07:51.016 6c3e Reusing old log /home/paul/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb/000020.log 
-2024/03/13-00:08:40.608 6c4f Level-0 table #25: started
-2024/03/13-00:08:40.626 6c4f Level-0 table #25: 1700299 bytes OK
-2024/03/13-00:08:40.629 6c4f Delete type=0 #20

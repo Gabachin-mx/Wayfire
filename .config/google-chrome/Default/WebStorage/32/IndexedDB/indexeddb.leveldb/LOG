@@ -1,9 +1,0 @@
-2024/03/13-23:38:10.429 4fa Reusing MANIFEST /home/paul/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/03/13-23:38:10.430 4fa Recovering log #24
-2024/03/13-23:38:10.430 4fa Reusing old log /home/paul/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb/000024.log 
-2024/03/13-23:41:25.049 4e4 Compacting 1@1 + 1@2 files
-2024/03/13-23:41:25.054 4e4 Generated table #27@1: 66 keys, 3970 bytes
-2024/03/13-23:41:25.054 4e4 Compacted 1@1 + 1@2 files => 3970 bytes
-2024/03/13-23:41:25.057 4e4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/03/13-23:41:25.057 4e4 Delete type=2 #25
-2024/03/13-23:41:25.057 4e4 Delete type=2 #22
