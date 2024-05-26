@@ -1,6 +1,0 @@
-2023/08/12-19:16:14.285 48f Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_www.gadgets360.com_0.indexeddb.leveldb since it was missing.
-2023/08/12-19:16:14.292 48f Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.gadgets360.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/12-19:27:32.934 490 Level-0 table #5: started
-2023/08/12-19:27:32.937 490 Level-0 table #5: 1035 bytes OK
-2023/08/12-19:27:32.940 490 Delete type=0 #3
-2023/08/12-19:27:32.941 490 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
