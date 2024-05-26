@@ -1,6 +1,0 @@
-2022/12/22-08:24:57.101 2efd Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb since it was missing.
-2022/12/22-08:24:57.108 2efd Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/22-08:26:20.308 367e Level-0 table #5: started
-2022/12/22-08:26:20.311 367e Level-0 table #5: 2603 bytes OK
-2022/12/22-08:26:20.314 367e Delete type=0 #3
-2022/12/22-08:26:20.314 367e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
